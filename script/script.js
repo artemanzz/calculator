@@ -317,7 +317,6 @@ class AppData {
   }
 
   eventsListeners() {
-    console.log(this);
     buttonStart.disabled = true;
     salaryAmount.addEventListener('input', function () {
       if (salaryAmount.value === '') {
